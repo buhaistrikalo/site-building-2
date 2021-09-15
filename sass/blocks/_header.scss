@@ -1,0 +1,42 @@
+.header {
+
+}
+.header__row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__text {
+    width: 465px;
+
+    
+}
+.header__text-title {
+    font-weight: bold;
+    font-size: 54px;
+    line-height: 1.46;
+    letter-spacing: 0.8px;
+
+    margin-bottom: 25px;
+
+    margin-right: -160px;
+    position: relative;
+    z-index: 9;
+}
+.header__text-desc {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.69;
+    letter-spacing: 1.15px;
+
+    margin-bottom: 42px;
+}
+.header__text-form {
+}
+.header__image {
+    width: 50%;
+    img {
+        border-radius: 40px 40px 40px 0px;
+    }
+}
+
