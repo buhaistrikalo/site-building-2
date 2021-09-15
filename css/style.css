@@ -37,6 +37,15 @@ a {
   color: inherit;
 }
 
+button, input[type="submit"] {
+  background-color: none;
+  cursor: pointer;
+}
+
+input:focus, button:focus {
+  outline: none;
+}
+
 body {
   font-family: 'Poppins';
   font-size: 24px;
@@ -49,6 +58,24 @@ body {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
+}
+
+.button {
+  display: inline-block;
+  height: 58px;
+  padding-left: 37px;
+  padding-right: 37px;
+  border-radius: 29px;
+  background-color: #f78434;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #FFFFFF;
+  transition: background-color 0.2s ease-in;
+}
+
+.button:hover {
+  background-color: #ff6a00;
 }
 
 .navbar {
@@ -97,11 +124,89 @@ body {
 .navbar__logo {
   display: flex;
   align-items: center;
-  font-weight: 700;
-  line-height: 1;
+}
+
+.navbar__logo span {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 1.5;
 }
 
 .navbar__logo img {
+  margin-right: 10px;
+}
+
+.header__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__text {
+  width: 465px;
+}
+
+.header__text-title {
+  font-weight: bold;
+  font-size: 54px;
+  line-height: 1.46;
+  letter-spacing: 0.8px;
+  margin-bottom: 25px;
+  margin-right: -160px;
+  position: relative;
+  z-index: 9;
+}
+
+.header__text-desc {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.69;
+  letter-spacing: 1.15px;
+  margin-bottom: 42px;
+}
+
+.header__image {
+  width: 50%;
+}
+
+.header__image img {
+  border-radius: 40px 40px 40px 0px;
+}
+
+.header__form {
+  background: #FFFFFF;
+  box-shadow: 0px 17px 42px rgba(0, 0, 0, 0.12);
+  border-radius: 29px;
+  max-width: 459px;
+  height: 58px;
+  transition: box-shadow 0.3s ease-in;
+}
+
+.header__form-active {
+  box-shadow: 5px 17px 42px rgba(247, 132, 52, 0.87);
+}
+
+.header__form-label {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 72px;
+  height: 100%;
+}
+
+.header__form-label::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 24px;
+  height: 19px;
+  left: 28px;
+  top: 21px;
+  background-image: url("/img/mail.svg");
+}
+
+.header__form-input {
+  flex-grow: 1;
   margin-right: 10px;
 }
 /*# sourceMappingURL=style.css.map */

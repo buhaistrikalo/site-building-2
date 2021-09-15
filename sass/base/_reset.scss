@@ -36,3 +36,12 @@ a {
     text-decoration: none;
     color: inherit;
 }
+
+button, input[type="submit"] {
+    background-color: none;
+    cursor: pointer;
+}
+
+input:focus, button:focus {
+    outline: none;
+}
