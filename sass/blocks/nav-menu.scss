@@ -1,0 +1,27 @@
+.navbar__menu {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    
+    ul {
+        display: flex;
+        justify-content: space-between;
+        li:not(:last-child) {
+            margin-right: 42px;
+        }
+        li a{
+            color: #323232;
+            &:hover{
+                color: $accent;
+                text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            }
+            &.active{
+                color: $accent;
+                text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                font-weight: bold;
+            }
+        }
+    }
+}
