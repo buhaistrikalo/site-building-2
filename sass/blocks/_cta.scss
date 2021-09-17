@@ -1,0 +1,56 @@
+.cta {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.cta__block {
+    border-radius: 20px;
+    background-color: #58BEBF;
+    color: #FFFFFF;
+    display: flex;
+    align-items: stretch;
+}
+.cta__img{
+
+    margin-top: 60px;
+    padding-top: 25px;
+    padding-right: 25px;
+    background-color: #fff;
+
+    box-shadow: 4px 20px 42px -2px rgba(0, 0, 0, 0.12);
+    border-radius: 0 20px 0 0;
+
+}
+.cta__text{
+    width: 550px;
+    padding-left: 95px;
+    padding-right: 40px;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background: url('/img/cta/oval-bottom-left.svg') bottom left -186px, 
+        url('/img/cta/oval-top-right.svg') right -10px top -5px;
+    background-repeat: no-repeat;
+    
+    &-title {
+        font-weight: bold;
+        font-size: 42px;
+        line-height: 1.48;
+        letter-spacing: 0.8px;
+        margin-bottom: 15px;
+    }
+    p {
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 1.69;
+        letter-spacing: 1.15px;
+        margin-bottom: 30px;
+        width: 320px;
+    }
+}
+.cta__text-buttons {
+    display: flex;
+    justify-content: space-between;
+}

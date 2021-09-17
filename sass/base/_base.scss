@@ -2,7 +2,7 @@ body {
     font-family: 'Poppins';
     font-weight: normal;
     font-size: 24px;
-    color: #323232;
+    color: $black;
 }
 
 .title {
@@ -26,24 +26,7 @@ body {
     }
 }
 
-.button {
-    display: inline-block;
-    height: 58px;
-    padding-left: 37px;
-    padding-right: 37px;
-    border-radius: 29px;
 
-    background-color: $accent;
-
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 58px;
-    color: #FFFFFF;
-    transition: background-color 0.2s ease-in;
-    &:hover {
-        background-color: #ff6a00;
-    }
-}
 
 .none {
     display: none;
