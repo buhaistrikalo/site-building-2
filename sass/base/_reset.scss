@@ -45,3 +45,8 @@ button, input[type="submit"] {
 input:focus, button:focus {
     outline: none;
 }
+
+img {
+    display: block;
+    max-width: 100%;
+}

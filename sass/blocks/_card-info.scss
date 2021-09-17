@@ -1,0 +1,34 @@
+.card-info {
+    display: flex;
+    align-items: center;
+
+    width: 300px;
+    height: 141px;
+
+    background-color: #fff;
+    box-shadow: 4px 20px 42px -2px rgba(0, 0, 0, 0.12);
+    border-radius: 15px;
+
+    padding: 30px;
+}
+.card-info__icon {
+    width: 45px;
+    height: 45px;
+    margin-right: 20px;
+}
+.card-info__text {
+    .card-info__title {
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.8px;
+    }
+    p {
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 1.69;
+        letter-spacing: 1.15px;
+    }
+}
+.card-info__title {
+}
