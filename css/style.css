@@ -209,4 +209,15 @@ body {
   flex-grow: 1;
   margin-right: 10px;
 }
+
+.company-logo {
+  margin-top: 100px;
+  margin-bottom: 90px;
+  display: flex;
+  justify-content: center;
+}
+
+.company-logo img:not(last-child) {
+  margin-right: 94px;
+}
 /*# sourceMappingURL=style.css.map */
