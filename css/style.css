@@ -210,14 +210,14 @@ body {
   margin-right: 10px;
 }
 
-.company-logo {
+.client__row {
   margin-top: 100px;
   margin-bottom: 90px;
   display: flex;
   justify-content: center;
 }
 
-.company-logo img:not(last-child) {
+.client__row img:not(last-child) {
   margin-right: 94px;
 }
 /*# sourceMappingURL=style.css.map */
