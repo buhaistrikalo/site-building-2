@@ -428,4 +428,80 @@ body {
   display: flex;
   justify-content: space-between;
 }
+
+.serve {
+  position: relative;
+  padding-bottom: 120px;
+  font-size: 16px;
+  line-height: 1.69;
+  letter-spacing: 1.15px;
+}
+
+.serve:before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: #f5f6fa;
+  position: absolute;
+  top: -50%;
+  bottom: -50%;
+  left: 0;
+  z-index: -1;
+}
+
+.serve__head {
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+.serve__row {
+  display: flex;
+  justify-content: center;
+  column-gap: 30px;
+  align-items: stretch;
+}
+
+.serve__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 540px;
+  background-color: white;
+  box-shadow: 0px 40px 52px -22px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  transition: background-color 0.2s ease-in, color 0.2s ease-in;
+  padding: 40px;
+}
+
+.serve__card-icon {
+  fill: #f78434;
+  transition: fill 0.2s ease-in;
+}
+
+.serve__card:hover {
+  background-color: #f78434;
+  color: white;
+}
+
+.serve__card:hover .button {
+  background-color: white;
+  color: #f78434;
+}
+
+.serve__card:hover .serve__card-icon {
+  fill: white;
+}
+
+.serve__card img {
+  margin-bottom: 15px;
+}
+
+.serve__card p {
+  margin-bottom: 25px;
+  margin-left: 62px;
+  margin-right: 62px;
+  text-align: center;
+}
 /*# sourceMappingURL=style.css.map */
