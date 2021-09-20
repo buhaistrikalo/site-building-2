@@ -83,6 +83,17 @@ body {
   display: none;
 }
 
+.hidden {
+  opacity: 0;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+  display: block;
+  margin-left: -10000px;
+  background: transparent;
+  font-size: 0;
+}
+
 .navbar {
   padding-top: 35px;
   padding-bottom: 35px;
@@ -235,6 +246,9 @@ body {
   border-radius: 29px;
   max-width: 459px;
   height: 58px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   transition: box-shadow 0.3s ease-in;
 }
 
@@ -246,6 +260,7 @@ body {
   position: relative;
   display: flex;
   justify-content: space-between;
+  flex-grow: 1;
   padding-left: 72px;
   height: 100%;
 }
