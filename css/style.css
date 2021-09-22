@@ -160,7 +160,7 @@ body {
   border-radius: 29px;
   color: #323232;
   display: flex;
-  max-width: 172px;
+  max-width: 180px;
   transition: background-color 0.2s ease-in, color 0.2s ease-in;
 }
 
