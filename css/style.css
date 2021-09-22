@@ -184,7 +184,7 @@ body {
   display: block;
   width: 12px;
   height: 12px;
-  background-image: url(/img/play.svg);
+  background-image: url(/site-building-2/img/play.svg);
   background-size: initial;
   background-repeat: no-repeat;
 }
@@ -274,7 +274,7 @@ body {
   height: 19px;
   left: 28px;
   top: 21px;
-  background-image: url("/img/mail.svg");
+  background-image: url("/site-building-2/img/mail.svg");
 }
 
 .header__form-input {
@@ -419,7 +419,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: url("/img/cta/oval-bottom-left.svg") bottom left -186px, url("/img/cta/oval-top-right.svg") right -10px top -5px;
+  background: url("/site-building-2/img/cta/oval-bottom-left.svg") bottom left -186px, url("/site-building-2/img/cta/oval-top-right.svg") right -10px top -5px;
   background-repeat: no-repeat;
 }
 
@@ -593,7 +593,7 @@ body {
   height: 80px;
   right: -40px;
   top: -40px;
-  background-image: url("/img/Shape.svg");
+  background-image: url("/site-building-2/img/Shape.svg");
 }
 
 .card-testimial {
@@ -661,7 +661,7 @@ body {
 .contact {
   padding-top: 200px;
   padding-bottom: 55px;
-  background-image: url("/img/contacts/bg.svg");
+  background-image: url("/site-building-2/img/contacts/bg.svg");
   background-size: cover;
   position: relative;
 }
@@ -674,7 +674,7 @@ body {
   display: block;
   width: 743px;
   height: 372px;
-  background-image: url("/img/contacts/oval.svg");
+  background-image: url("/site-building-2/img/contacts/oval.svg");
   background-size: cover;
 }
 
@@ -687,7 +687,7 @@ body {
   width: 478px;
   height: 547px;
   margin-left: 79px;
-  background-image: url("/img/contacts/img.png");
+  background-image: url("/site-building-2/img/contacts/img.png");
   background-size: initial;
 }
 
