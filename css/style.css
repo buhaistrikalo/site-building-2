@@ -582,20 +582,56 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
+}
+
+.testimonials__row::before {
+  content: "";
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  right: -40px;
+  top: -40px;
+  background-image: url("/img/Shape.svg");
 }
 
 .card-testimial {
   max-width: 350px;
   background-color: #fff;
   border-radius: 5%;
+  transition: box-shadow 0.2s ease-in, color 0.2s ease-in;
 }
 
 .card-testimial:hover {
-  filter: drop-shadow(0px 10px 52px rgba(0, 0, 0, 0.08));
+  box-shadow: 0px 10px 52px rgba(0, 0, 0, 0.08);
 }
 
 .card-testimial:hover .card-tetimial__city {
   color: #f78434;
+}
+
+.card-testimial__img-wrapper {
+  position: relative;
+}
+
+.card-testimonial__btn-play {
+  position: absolute;
+  right: 20px;
+  bottom: 15px;
+  background: none;
+}
+
+.card-testimonial__btn-svg circle {
+  fill: white;
+}
+
+.card-testimonial__btn-svg path {
+  fill: #58BEBF;
+  transition: fill 0.2s ease-in;
+}
+
+.card-testimonial__btn-svg:hover path {
+  fill: #f78434;
 }
 
 .card-testimial__img {
