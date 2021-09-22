@@ -189,18 +189,18 @@ body {
   background-repeat: no-repeat;
 }
 
-.navbar__logo {
+.logo {
   display: flex;
   align-items: center;
 }
 
-.navbar__logo span {
+.logo span {
   font-weight: bold;
   font-size: 24px;
   line-height: 1.5;
 }
 
-.navbar__logo img {
+.logo img {
   margin-right: 10px;
 }
 
@@ -703,5 +703,57 @@ body {
 .contact__text p {
   margin-top: 15px;
   margin-bottom: 30px;
+}
+
+.footer {
+  padding-top: 86px;
+  padding-bottom: 82px;
+}
+
+.footer__row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__info .logo {
+  margin-bottom: 15px;
+  margin-left: -5px;
+}
+
+.footer__info p {
+  margin-bottom: 40px;
+  max-width: 300px;
+}
+
+.social {
+  display: flex;
+  justify-content: left;
+  column-gap: 30px;
+}
+
+.footer__nav {
+  display: flex;
+  letter-spacing: 0.5px;
+  column-gap: 85px;
+}
+
+.footer__nav-block {
+  font-size: 14px;
+}
+
+.footer__nav-block a:hover {
+  color: #f78434;
+}
+
+.footer__nav-block li:not(last-child) {
+  margin-bottom: 13px;
+}
+
+.footer__nav-block-title {
+  margin-bottom: 18px;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 1.45;
+  letter-spacing: 0.5px;
 }
 /*# sourceMappingURL=style.css.map */
