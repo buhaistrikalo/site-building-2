@@ -17,7 +17,7 @@
     }
 
 
-    &--white {
+    &_white {
         background-color: #fff;
         border-radius: 29px;
         color: $black;
@@ -30,7 +30,7 @@
         }
     }
 
-    &--play {
+    &_play {
         padding-left: 50px;
         position: relative;
         &::before{

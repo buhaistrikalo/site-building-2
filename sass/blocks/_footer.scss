@@ -30,12 +30,12 @@
 
 
 
-.footer__nav {
+.footer__navigation {
     display: flex;
     letter-spacing: 0.5px;
     column-gap: 85px;
 }
-.footer__nav-block {
+.nav-block {
     font-size: 14px;
 
     a:hover {
@@ -45,7 +45,7 @@
         margin-bottom: 13px;
     }
 }
-.footer__nav-block-title{
+.nav-block__title{
     margin-bottom: 18px;
 
     font-weight: bold;
