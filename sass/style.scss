@@ -3,15 +3,13 @@
 @import "./base/reset";
 @import "./base/base";
 
+// Items
+@import "./items/button";
+@import "./items/logo";
 
-
-
-// font-family: 'Poppins', sans-serif;
 // Blocks 
 @import "./blocks/nav";
 @import "./blocks/nav-menu";
-@import "./blocks/button";
-@import "./blocks/logo";
 @import "./blocks/header";
 @import "./blocks/form";
 @import "./blocks/clients";
@@ -23,3 +21,4 @@
 @import "./blocks/testimonials";
 @import "./blocks/contact";
 @import "./blocks/footer";
+
